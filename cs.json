@@ -1,1 +1,236 @@
-{}
+{
+    "general": {
+        "name": "Nyan Anime",
+        "home": "Domů",
+        "all": "Procházet",
+        "settings": "Nastavení",
+        "download": "Stažení",
+        "login": "Přihlásit se"
+    },
+    "home": {
+        "airing": "Sezonní anime",
+        "soon": "Plánované epizody",
+        "latest": "Nové epizody",
+        "random": "Náhodné anime",
+        "releasedAgo": "před {{time}}",
+        "releasedAgoWaiting": "před {{time}}",
+        "releaseIn": "za {{time}}"
+    },
+    "footer": {
+        "hosting": "Hostuje se {{files}} souborů o velikosti {{size}}"
+    },
+    "all": {
+        "title": "Anime ({{count}})",
+        "genres": "Žánr: {{genre}}",
+        "year": "Rok: {{year}}",
+        "type": "Typ: {{type}}",
+        "status": "Status: {{status}}",
+        "sort": "Pořadí: {{sort}}",
+        "tags": "Tag: {{tags}}",
+        "search": "Vyhledat...",
+        "items": "Položek: {{items}}",
+        "group": "Seskupit: {{group}}"
+    },
+    "filter": {
+        "default": "Výchozí",
+        "any": "Jakýkoliv"
+    },
+    "genre": {
+        "any": "Jakýkoliv"
+    },
+    "enum": {
+        "preferencesTheme": {
+            "0": "Tmavý",
+            "1": "Světlý"
+        },
+        "notificationPreference": {
+            "default": "Vypnuty",
+            "granted": "Zapnuty",
+            "denied": "Zablokovány",
+            "notLoggedIn": "Nepřihlášen",
+            "off": "Vypnuty"
+        },
+        "authResult": {
+            "0": " ",
+            "1": "Zpracovává se...",
+            "2": "Nepodařilo se přihlásit!",
+            "3": "Nepodařilo se registrovat!",
+            "4": "Uživatelské jméno je moc krátké!",
+            "6": "Hesla se neshodují!",
+            "7": "Uživatel už existuje!"
+        },
+        "filterType": {
+            "0": "Žánry",
+            "1": "Rok",
+            "2": "Typ",
+            "3": "Status",
+            "4": "Řazení",
+            "5": "Tagy",
+            "6": "Položky",
+            "7": "Skupiny"
+        },
+        "filterSort": {
+            "0": "Název",
+            "1": "Datum",
+            "2": "Hvězdičky"
+        },
+        "filterGroup": {
+            "0": "Ano",
+            "1": "Ne"
+        },
+        "animeType": {
+            "0": "TV",
+            "1": "Speciál",
+            "2": "OVA",
+            "3": "Film",
+            "4": "ONA"
+        },
+        "animeStatus": {
+            "0": "Vysíláno",
+            "1": "Dokončeno"
+        },
+        "animeGenre": {
+            "1": "Akce",
+            "2": "Dobrodružství",
+            "4": "Komedie",
+            "8": "Drama",
+            "16": "Ecchi",
+            "32": "Fantazie",
+            "64": "Horror",
+            "128": "Mahou Shoujo",
+            "256": "Mecha",
+            "512": "Hudba",
+            "1024": "Záhada",
+            "2048": "Psychologické",
+            "4096": "Romantické",
+            "8192": "Sci-Fi",
+            "16384": "Denní život",
+            "32768": "Sport",
+            "65536": "Supernaturální",
+            "131072": "Thriller"
+        },
+        "animeTag": {
+            "1": "Titulky",
+            "2": "Stálé titulky",
+            "4": "Dabovaný"
+        },
+        "animeRating": {
+            "0": "PG",
+            "1": "R"
+        },
+        "episodePreset": {
+            "1": "Nízká [480p]",
+            "2": "Střední [720p]",
+            "4": "Vysoká [1080p]",
+            "8": "VP9 [1080p]"
+        },
+        "segmentType": {
+            "0": "OP",
+            "1": "Epizoda",
+            "2": "ED"
+        },
+        "videoPlayerNotification": {
+            "0": "Přeskočit intro?",
+            "1": "Přeskočit outro?"
+        }
+    },
+    "settings": {
+        "theme": "Vzhled: {{theme}}",
+        "notifications": "Notifikace: {{status}}"
+    },
+    "anime": {
+        "favourite": {
+            "tooltip": "Oblíbit si"
+        },
+        "type": "Typ: ",
+        "status": "Status: ",
+        "genres": "Žánry: ",
+        "episodes": "Počet epizod: ",
+        "favourites": "Hvězdičky: ",
+        "views": "Počet zhlédnutí: ",
+        "tags": "Tagy: ",
+        "missing": "Tady nic",
+        "episode": {
+            "number": "Epizoda {{num}}/{{episodes}}",
+            "play": "Přehrát",
+            "download": "Stáhnout",
+            "missing": "Tady nic"
+        },
+        "noTags": "Žádné",
+        "noGenres": "Žádné",
+        "noSynopsis": "Žádná synopse..."
+    },
+    "episode": {
+        "number": "Epizoda {{num}} - ",
+        "anime": "Anime: "
+    },
+    "download": {
+        "title": "Stažení",
+        "link": "Stáhnout"
+    },
+    "group": {
+        "seasons": "{{count}} sezón",
+        "season": "Sezóna {{number}}"
+    },
+    "login": {
+        "title": "Přihlášení",
+        "button": "Přihlásit se",
+        "username": {
+            "placeholder": "Uživatelské jméno..."
+        },
+        "password": {
+            "placeholder": "Heslo..."
+        },
+        "noAccount": "Žádný účet? (Zaregistrovat se)"
+    },
+    "register": {
+        "title": "Registace",
+        "button": "Registrovat se",
+        "username": {
+            "placeholder": "Uživatelské jméno..."
+        },
+        "password": {
+            "placeholder": "Heslo..."
+        },
+        "password_2": {
+            "placeholder": "Heslo znovu..."
+        },
+        "existingAccount": "Existující účet? (Přihlásit se)"
+    },
+    "video": {
+        "play": {
+            "tooltip": "Přehrát (k)"
+        },
+        "pause": {
+            "tooltip": "Pozastavit (k)"
+        },
+        "unmute": {
+            "tooltip": "Odtlumit (m)"
+        },
+        "mute": {
+            "tooltip": "Tlumit (m)"
+        },
+        "volume": "Hlasitost ({{volume}}%)",
+        "showSubtitles": {
+            "tooltip": "Zobrazit titulky (c)"
+        },
+        "hideSubtitles": {
+            "tooltip": "Skrýt titulky (c)"
+        },
+        "noDub": "Není dabováno",
+        "quality": "Kvalita - {{quality}} ({{number}}/{{count}})",
+        "showTheater": {
+            "tooltip": "Režim divalda (t)"
+        },
+        "hideTheater": {
+            "tooltip": "Režim divalda (t)"
+        },
+        "fullscreen": {
+            "tooltip": "Celá obrazovka (f)"
+        },
+        "notification": {
+            "skip": "Přeskočit",
+            "hide": "Skrýt"
+        }
+    }
+}

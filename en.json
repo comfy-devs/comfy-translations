@@ -1,1 +1,234 @@
-{}
+{
+    "general": {
+        "name": "Nyan Anime",
+        "home": "Home",
+        "all": "All",
+        "settings": "Settings",
+        "download": "Download",
+        "login": "Login"
+    },
+    "home": {
+        "airing": "Airing anime",
+        "soon": "Airing soon",
+        "latest": "Latest episode",
+        "random": "Random anime",
+        "releasedAgo": "{time} ago",
+        "releasedAgoWaiting": "{time} ago",
+        "releaseIn": "in {time}"
+    },
+    "footer": {
+        "hosting": "Hosting {files} files with size of {size}"
+    },
+    "all": {
+        "title": "Anime ({count})",
+        "genres": "Genres: {genre}",
+        "year": "Year: {year}",
+        "type": "Type: {type}",
+        "status": "Status: {status}",
+        "sort": "Sort: {sort}",
+        "tags": "Tags: {tags}",
+        "search": "Search...",
+        "items": "Items: {items}",
+        "group": "Group: {group}"
+    },
+    "filter": {
+        "default": "Default",
+        "any": "Any"
+    },
+    "genre": {
+        "any": "Any"
+    },
+    "enum": {
+        "preferencesTheme": {
+            "0": "Dark",
+            "1": "Light"
+        },
+        "notificationPreference": {
+            "default": "Off",
+            "granted": "On",
+            "denied": "Blocked"
+        },
+        "authResult": {
+            "0": " ",
+            "1": "Waiting...",
+            "2": "Failed to login!",
+            "3": "Failed to register!",
+            "4": "Username is too short!",
+            "5": "Password is too short!",
+            "6": "Passwords don't match!",
+            "7": "Username already exists!"
+        },
+        "filterType": {
+            "0": "Genres",
+            "1": "Year",
+            "2": "Type",
+            "3": "Status",
+            "4": "Sort",
+            "5": "Tags",
+            "6": "Items",
+            "7": "Group"
+        },
+        "filterSort": {
+            "0": "Title",
+            "1": "Release",
+            "2": "Favourites"
+        },
+        "filterGroup": {
+            "0": "Yes",
+            "1": "No"
+        },
+        "animeType": {
+            "0": "TV",
+            "1": "Special",
+            "2": "OVA",
+            "3": "Movie",
+            "4": "ONA"
+        },
+        "animeStatus": {
+            "0": "Airing",
+            "1": "Finished"
+        },
+        "animeGenre": {
+            "1": "Action",
+            "2": "Adventure",
+            "4": "Comedy",
+            "8": "Drama",
+            "16": "Ecchi",
+            "32": "Fantasy",
+            "64": "Horror",
+            "128": "Mahou Shoujo",
+            "256": "Mecha",
+            "512": "Music",
+            "1024": "Mystery",
+            "2048": "Psychological",
+            "4096": "Romance",
+            "8192": "Sci-Fi",
+            "16384": "Slice Of Life",
+            "32768": "Sports",
+            "65536": "Supernatural",
+            "131072": "Thriller"
+        },
+        "animeTag": {
+            "1": "Subbed",
+            "2": "Hard Subbed",
+            "4": "Dubbed"
+        },
+        "animeRating": {
+            "0": "PG",
+            "1": "R"
+        },
+        "episodePreset": {
+            "1": "Low",
+            "2": "Medium",
+            "4": "High",
+            "8": "VP9"
+        },
+        "segmentType": {
+            "0": "OP",
+            "1": "Episode",
+            "2": "ED"
+        },
+        "videoPlayerNotification": {
+            "0": "Do you want to skip the opening?",
+            "1": "Do you want to skip the ending?"
+        }
+    },
+    "settings": {
+        "theme": "Theme: {theme}",
+        "notifications": "Notifications: {status}"
+    },
+    "anime": {
+        "favourite": {
+            "tooltip": "Favourite"
+        },
+        "type": "Type: {type}",
+        "status": "Status: {status}",
+        "genres": "Genres: {genres}",
+        "episodes": "Episodes: {episodes}",
+        "favourites": "Favourites: {favourites}",
+        "views": "Views: {views}",
+        "tags": "Tags: {tags}",
+        "episode": {
+            "number": "Episode {num}/{episodes}",
+            "play": "Play",
+            "download": "Download",
+            "missing": "Nothing here"
+        },
+        "noTags": "None",
+        "noGenres": "None",
+        "noSynopsis": "No synopsis..."
+    },
+    "episode": {
+        "number": "Episode {num} - {title}",
+        "anime": "Anime: "
+    },
+    "download": {
+        "title": "Downloads",
+        "link": "Download"
+    },
+    "group": {
+        "seasons": "{count} seasons",
+        "season": "Season {number}"
+    },
+    "login": {
+        "title": "Login",
+        "button": "Login",
+        "username": {
+            "placeholder": "Username..."
+        },
+        "password": {
+            "placeholder": "Password..."
+        },
+        "noAccount": "No account yet? (Register)"
+    },
+    "register": {
+        "title": "Register",
+        "button": "Register",
+        "username": {
+            "placeholder": "Username..."
+        },
+        "password": {
+            "placeholder": "Password..."
+        },
+        "password_2": {
+            "placeholder": "Password again..."
+        },
+        "existingAccount": "Existing account? (Login)"
+    },
+    "video": {
+        "play": {
+            "tooltip": "Play (k)"
+        },
+        "pause": {
+            "tooltip": "Pause (k)"
+        },
+        "unmute": {
+            "tooltip": "Unmute (m)"
+        },
+        "mute": {
+            "tooltip": "Mute (m)"
+        },
+        "volume": "Volume ({volume}%)",
+        "showSubtitles": {
+            "tooltip": "Subtitles On (c)"
+        },
+        "hideSubtitles": {
+            "tooltip": "Subtitles Off (c)"
+        },
+        "noDub": "Not dubbed",
+        "quality": "Quality - {quality} ({number}/{count})",
+        "showTheater": {
+            "tooltip": "Theater On (t)"
+        },
+        "hideTheater": {
+            "tooltip": "Theater Off (t)"
+        },
+        "fullscreen": {
+            "tooltip": "Fullscreen (f)"
+        },
+        "notification": {
+            "skip": "Skip",
+            "hide": "Hide"
+        }
+    }
+}

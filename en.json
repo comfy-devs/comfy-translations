@@ -12,24 +12,24 @@
         "soon": "Airing soon",
         "latest": "Latest episode",
         "random": "Random anime",
-        "releasedAgo": "{time} ago",
-        "releasedAgoWaiting": "{time} ago",
-        "releaseIn": "in {time}"
+        "releasedAgo": "{{time}} ago",
+        "releasedAgoWaiting": "{{time}} ago",
+        "releaseIn": "in {{time}}"
     },
     "footer": {
-        "hosting": "Hosting {files} files with size of {size}"
+        "hosting": "Hosting {{files}} files with size of {{size}}"
     },
     "all": {
-        "title": "Anime ({count})",
-        "genres": "Genres: {genre}",
-        "year": "Year: {year}",
-        "type": "Type: {type}",
-        "status": "Status: {status}",
-        "sort": "Sort: {sort}",
-        "tags": "Tags: {tags}",
+        "title": "Anime ({{count}})",
+        "genres": "Genres: {{genre}}",
+        "year": "Year: {{year}}",
+        "type": "Type: {{type}}",
+        "status": "Status: {{status}}",
+        "sort": "Sort: {{sort}}",
+        "tags": "Tags: {{tags}}",
         "search": "Search...",
-        "items": "Items: {items}",
-        "group": "Group: {group}"
+        "items": "Items: {{items}}",
+        "group": "Group: {{group}}"
     },
     "filter": {
         "default": "Default",
@@ -46,7 +46,9 @@
         "notificationPreference": {
             "default": "Off",
             "granted": "On",
-            "denied": "Blocked"
+            "denied": "Blocked",
+            "notLoggedIn": "Not logged in",
+            "off": "Off"
         },
         "authResult": {
             "0": " ",
@@ -118,10 +120,10 @@
             "1": "R"
         },
         "episodePreset": {
-            "1": "Low",
-            "2": "Medium",
-            "4": "High",
-            "8": "VP9"
+            "1": "Low [480p]",
+            "2": "Medium [720p]",
+            "4": "High [1080p]",
+            "8": "VP9 [1080p]"
         },
         "segmentType": {
             "0": "OP",
@@ -134,22 +136,22 @@
         }
     },
     "settings": {
-        "theme": "Theme: {theme}",
-        "notifications": "Notifications: {status}"
+        "theme": "Theme: {{theme}}",
+        "notifications": "Notifications: {{status}}"
     },
     "anime": {
         "favourite": {
             "tooltip": "Favourite"
         },
-        "type": "Type: {type}",
-        "status": "Status: {status}",
-        "genres": "Genres: {genres}",
-        "episodes": "Episodes: {episodes}",
-        "favourites": "Favourites: {favourites}",
-        "views": "Views: {views}",
-        "tags": "Tags: {tags}",
+        "type": "Type: ",
+        "status": "Status: ",
+        "genres": "Genres: ",
+        "episodes": "Episodes: ",
+        "favourites": "Favourites: ",
+        "views": "Views: ",
+        "tags": "Tags: ",
         "episode": {
-            "number": "Episode {num}/{episodes}",
+            "number": "Episode {{num}}/{{episodes}}",
             "play": "Play",
             "download": "Download",
             "missing": "Nothing here"
@@ -159,7 +161,7 @@
         "noSynopsis": "No synopsis..."
     },
     "episode": {
-        "number": "Episode {num} - {title}",
+        "number": "Episode {{num}} - ",
         "anime": "Anime: "
     },
     "download": {
@@ -167,8 +169,8 @@
         "link": "Download"
     },
     "group": {
-        "seasons": "{count} seasons",
-        "season": "Season {number}"
+        "seasons": "{{count}} seasons",
+        "season": "Season {{number}}"
     },
     "login": {
         "title": "Login",
@@ -208,7 +210,7 @@
         "mute": {
             "tooltip": "Mute (m)"
         },
-        "volume": "Volume ({volume}%)",
+        "volume": "Volume ({{volume}}%)",
         "showSubtitles": {
             "tooltip": "Subtitles On (c)"
         },
@@ -216,7 +218,7 @@
             "tooltip": "Subtitles Off (c)"
         },
         "noDub": "Not dubbed",
-        "quality": "Quality - {quality} ({number}/{count})",
+        "quality": "Quality - {{quality}} ({{number}}/{{count}})",
         "showTheater": {
             "tooltip": "Theater On (t)"
         },

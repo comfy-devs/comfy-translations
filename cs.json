@@ -8,6 +8,7 @@
         "login": "Přihlásit se"
     },
     "home": {
+        "favourites": "Oblíbené",
         "airing": "Sezonní anime",
         "soon": "Plánované epizody",
         "latest": "Nové epizody",
@@ -20,7 +21,7 @@
         "hosting": "Hostuje se {{files}} souborů o velikosti {{size}}"
     },
     "all": {
-        "title": "Anime ({{count}})",
+        "title": "Anime ({{count}}):",
         "genres": "Žánr: {{genre}}",
         "year": "Rok: {{year}}",
         "type": "Typ: {{type}}",
@@ -70,9 +71,12 @@
             "7": "Skupiny"
         },
         "filterSort": {
-            "0": "Název",
-            "1": "Datum",
-            "2": "Hvězdičky"
+            "0": "Název (A-Z)",
+            "1": "Název (Z-A)",
+            "2": "Datum (Nové)",
+            "3": "Datum (Staré)",
+            "4": "Hvězdičky (Nejvíce)",
+            "5": "Hvězdičky (Nejméně)"
         },
         "filterGroup": {
             "0": "Ano",
@@ -118,12 +122,6 @@
             "0": "PG",
             "1": "R"
         },
-        "episodePreset": {
-            "1": "Nízká [480p]",
-            "2": "Střední [720p]",
-            "4": "Vysoká [1080p]",
-            "8": "VP9 [1080p]"
-        },
         "segmentType": {
             "0": "OP",
             "1": "Epizoda",
@@ -140,7 +138,11 @@
     },
     "anime": {
         "favourite": {
-            "tooltip": "Oblíbit si"
+            "tooltip": {
+                "notLoggedIn": "Přihlašte se pro tuto funkci",
+                "false": "Přidat do oblíbených",
+                "true": "Odebrat z oblíbených"
+            }
         },
         "type": "Typ: ",
         "status": "Status: ",

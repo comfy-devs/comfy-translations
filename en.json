@@ -5,9 +5,11 @@
         "all": "All",
         "settings": "Settings",
         "download": "Download",
+        "status": "Status",
         "login": "Login"
     },
     "home": {
+        "favourites": "Favourites",
         "airing": "Airing anime",
         "soon": "Airing soon",
         "latest": "Latest episode",
@@ -20,7 +22,7 @@
         "hosting": "Hosting {{files}} files with size of {{size}}"
     },
     "all": {
-        "title": "Anime ({{count}})",
+        "title": "Anime ({{count}}):",
         "genres": "Genres: {{genre}}",
         "year": "Year: {{year}}",
         "type": "Type: {{type}}",
@@ -42,6 +44,10 @@
         "preferencesTheme": {
             "0": "Dark",
             "1": "Light"
+        },
+        "preferencesBlur": {
+            "true": "Blur",
+            "false": "No Blur"
         },
         "notificationPreference": {
             "default": "Off",
@@ -71,9 +77,12 @@
             "7": "Group"
         },
         "filterSort": {
-            "0": "Title",
-            "1": "Release",
-            "2": "Favourites"
+            "0": "Title (A-Z)",
+            "1": "Title (Z-A)",
+            "2": "Release (Latest)",
+            "3": "Release (Oldest)",
+            "4": "Favourites (Most)",
+            "5": "Favourites (Least)"
         },
         "filterGroup": {
             "0": "Yes",
@@ -119,12 +128,6 @@
             "0": "PG",
             "1": "R"
         },
-        "episodePreset": {
-            "1": "Low [480p]",
-            "2": "Medium [720p]",
-            "4": "High [1080p]",
-            "8": "VP9 [1080p]"
-        },
         "segmentType": {
             "0": "OP",
             "1": "Episode",
@@ -137,11 +140,16 @@
     },
     "settings": {
         "theme": "Theme: {{theme}}",
-        "notifications": "Notifications: {{status}}"
+        "notifications": "Notifications: {{status}}",
+        "blur": "Blur: {{blur}}"
     },
     "anime": {
         "favourite": {
-            "tooltip": "Favourite"
+            "tooltip": {
+                "notLoggedIn": "Login to favourite shows",
+                "false": "Favourite",
+                "true": "Unfavourite"
+            }
         },
         "type": "Type: ",
         "status": "Status: ",
@@ -165,8 +173,12 @@
         "anime": "Anime: "
     },
     "download": {
-        "title": "Downloads",
-        "link": "Download"
+        "title": "Download",
+        "link": "Download",
+        "versions": "Previous versions"
+    },
+    "status": {
+        "title": "Status"
     },
     "group": {
         "seasons": "{{count}} seasons",

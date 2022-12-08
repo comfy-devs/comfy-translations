@@ -42,12 +42,16 @@
     },
     "enum": {
         "preferencesTheme": {
-            "0": "Dark",
-            "1": "Light"
+            "dark": "Dark",
+            "light": "Light"
+        },
+        "preferencesTorrent": {
+            "true": "Enabled",
+            "false": "Disabled"
         },
         "preferencesBlur": {
-            "true": "Blur",
-            "false": "No Blur"
+            "true": "Active",
+            "false": "Inactive"
         },
         "notificationPreference": {
             "default": "Off",
@@ -67,26 +71,26 @@
             "7": "Username already exists!"
         },
         "filterType": {
-            "0": "Genres",
-            "1": "Year",
-            "2": "Type",
-            "3": "Status",
-            "4": "Sort",
-            "5": "Tags",
-            "6": "Items",
-            "7": "Group"
+            "GENRES": "Genres",
+            "YEAR": "Year",
+            "TYPE": "Type",
+            "STATUS": "Status",
+            "SORT": "Sort",
+            "TAGS": "Tags",
+            "ITEMS": "Items",
+            "GROUP": "Group"
         },
         "filterSort": {
-            "0": "Title (A-Z)",
-            "1": "Title (Z-A)",
-            "2": "Release (Latest)",
-            "3": "Release (Oldest)",
-            "4": "Favourites (Most)",
-            "5": "Favourites (Least)"
+            "TITLE_ASC": "Title (A-Z)",
+            "TITLE_DESC": "Title (Z-A)",
+            "RELEASE_ASC": "Release (Latest)",
+            "RELEASE_DESC": "Release (Oldest)",
+            "FAVOURITES_ASC": "Favourites (Most)",
+            "FAVOURITES_DESC": "Favourites (Least)"
         },
         "filterGroup": {
-            "0": "Yes",
-            "1": "No"
+            "YES": "Yes",
+            "NO": "No"
         },
         "animeType": {
             "0": "TV",
@@ -139,9 +143,10 @@
         }
     },
     "settings": {
-        "theme": "Theme: {{theme}}",
-        "notifications": "Notifications: {{status}}",
-        "blur": "Blur: {{blur}}"
+        "theme": "Theme",
+        "notifications": "Notifications",
+        "torrent": "Torrent",
+        "blur": "Blur"
     },
     "anime": {
         "favourite": {
@@ -161,7 +166,7 @@
         "episode": {
             "number": "Episode {{num}}/{{episodes}}",
             "play": "Play",
-            "download": "Download",
+            "watchLater": "Watch later",
             "missing": "Nothing here"
         },
         "noTags": "None",
@@ -211,38 +216,39 @@
     },
     "video": {
         "play": {
-            "tooltip": "Play (k)"
+            "tooltip": "Play"
         },
         "pause": {
-            "tooltip": "Pause (k)"
+            "tooltip": "Pause"
         },
         "unmute": {
-            "tooltip": "Unmute (m)"
+            "tooltip": "Unmute"
         },
         "mute": {
-            "tooltip": "Mute (m)"
+            "tooltip": "Mute"
         },
-        "volume": "Volume ({{volume}}%)",
+        "volume": "Volume",
         "showSubtitles": {
-            "tooltip": "Subtitles On (c)"
+            "tooltip": "Subtitles on"
         },
         "hideSubtitles": {
-            "tooltip": "Subtitles Off (c)"
+            "tooltip": "Subtitles off"
         },
         "noDub": "Not dubbed",
         "quality": "Quality - {{quality}} ({{number}}/{{count}})",
         "showTheater": {
-            "tooltip": "Theater On (t)"
+            "tooltip": "Theater on"
         },
         "hideTheater": {
-            "tooltip": "Theater Off (t)"
+            "tooltip": "Theater off"
         },
         "fullscreen": {
-            "tooltip": "Fullscreen (f)"
+            "tooltip": "Fullscreen"
         },
         "notification": {
             "skip": "Skip",
             "hide": "Hide"
-        }
+        },
+        "settings": "Settings"
     }
 }

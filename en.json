@@ -61,14 +61,13 @@
             "off": "Off"
         },
         "authResult": {
-            "0": " ",
-            "1": "Waiting...",
-            "2": "Failed to login!",
-            "3": "Failed to register!",
-            "4": "Username is too short!",
-            "5": "Password is too short!",
-            "6": "Passwords don't match!",
-            "7": "Username already exists!"
+            "NONE": "",
+            "USERNAME_TOO_SHORT": "Username is too short!",
+            "PASSWORD_TOO_SHORT": "Password is too short!",
+            "PASSWORD_NO_MATCH": "Passwords don't match!",
+            "NOT_FOUND": "Failed to login!",
+            "NOT_AUTHORIZED": "Failed to login!",
+            "USER_TAKEN": "Username already exists!"
         },
         "filterType": {
             "GENRES": "Genres",
@@ -138,8 +137,8 @@
             "2": "ED"
         },
         "videoPlayerNotification": {
-            "0": "Do you want to skip the opening?",
-            "1": "Do you want to skip the ending?"
+            "OP": "Do you want to skip the opening?",
+            "ED": "Do you want to skip the ending?"
         }
     },
     "settings": {
@@ -160,6 +159,7 @@
         "status": "Status: ",
         "genres": "Genres: ",
         "episodes": "Episodes: ",
+        "rating": "Rating: ",
         "favourites": "Favourites: ",
         "views": "Views: ",
         "tags": "Tags: ",

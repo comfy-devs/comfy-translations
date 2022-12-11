@@ -52,13 +52,13 @@
             "off": "Vypnuty"
         },
         "authResult": {
-            "0": " ",
-            "1": "Zpracovává se...",
-            "2": "Nepodařilo se přihlásit!",
-            "3": "Nepodařilo se registrovat!",
-            "4": "Uživatelské jméno je moc krátké!",
-            "6": "Hesla se neshodují!",
-            "7": "Uživatel už existuje!"
+            "NONE": "",
+            "USERNAME_TOO_SHORT": "Uživatelské jméno je moc krátké!",
+            "PASSWORD_TOO_SHORT": "Heslo je moc krátké!",
+            "PASSWORD_NO_MATCH": "Hesla se neshodují!",
+            "NOT_FOUND": "Nepodařilo se přihlásit!",
+            "NOT_AUTHORIZED": "Nepodařilo se přihlásit!",
+            "USER_TAKEN": "Uživatel už existuje!"
         },
         "filterType": {
             "0": "Žánry",
@@ -128,8 +128,8 @@
             "2": "ED"
         },
         "videoPlayerNotification": {
-            "0": "Přeskočit intro?",
-            "1": "Přeskočit outro?"
+            "OP": "Přeskočit intro?",
+            "ED": "Přeskočit outro?"
         }
     },
     "settings": {

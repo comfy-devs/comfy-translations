@@ -1,6 +1,6 @@
 {
     "general": {
-        "name": "Nyan Anime",
+        "name": "Comfy",
         "home": "Home",
         "all": "All",
         "settings": "Settings",
@@ -10,10 +10,10 @@
     },
     "home": {
         "favourites": "Favourites",
-        "airing": "Airing anime",
+        "airing": "Airing shows",
         "soon": "Airing soon",
         "latest": "Latest episode",
-        "random": "Random anime",
+        "random": "Random shows",
         "releasedAgo": "{{time}} ago",
         "releasedAgoWaiting": "{{time}} ago",
         "releaseIn": "in {{time}}"
@@ -22,7 +22,7 @@
         "hosting": "Hosting {{files}} files with size of {{size}}"
     },
     "all": {
-        "title": "Anime ({{count}}):",
+        "title": "Shows ({{count}}):",
         "genres": "Genres: {{genre}}",
         "year": "Year: {{year}}",
         "type": "Type: {{type}}",
@@ -91,18 +91,18 @@
             "YES": "Yes",
             "NO": "No"
         },
-        "animeType": {
+        "showType": {
             "0": "TV",
             "1": "Special",
             "2": "OVA",
             "3": "Movie",
             "4": "ONA"
         },
-        "animeStatus": {
+        "showStatus": {
             "0": "Airing",
             "1": "Finished"
         },
-        "animeGenre": {
+        "showGenre": {
             "1": "Action",
             "2": "Adventure",
             "4": "Comedy",
@@ -122,12 +122,12 @@
             "65536": "Supernatural",
             "131072": "Thriller"
         },
-        "animeTag": {
+        "showTag": {
             "1": "Subbed",
             "2": "Hard Subbed",
             "4": "Dubbed"
         },
-        "animeRating": {
+        "showRating": {
             "0": "PG",
             "1": "R"
         },
@@ -147,7 +147,7 @@
         "torrent": "Torrent",
         "blur": "Blur"
     },
-    "anime": {
+    "show": {
         "favourite": {
             "tooltip": {
                 "notLoggedIn": "Login to favourite shows",
@@ -175,7 +175,7 @@
     },
     "episode": {
         "number": "Episode {{num}} - ",
-        "anime": "Anime: "
+        "show": "Show: "
     },
     "download": {
         "title": "Download",

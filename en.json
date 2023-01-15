@@ -23,9 +23,10 @@
     },
     "all": {
         "title": "Shows ({{count}}):",
+        "type": "Type: {{type}}",
+        "format": "Format: {{format}}",
         "genres": "Genres: {{genre}}",
         "year": "Year: {{year}}",
-        "type": "Type: {{type}}",
         "status": "Status: {{status}}",
         "sort": "Sort: {{sort}}",
         "tags": "Tags: {{tags}}",
@@ -71,8 +72,9 @@
         },
         "filterType": {
             "GENRES": "Genres",
-            "YEAR": "Year",
             "TYPE": "Type",
+            "FORMAT": "Format",
+            "YEAR": "Year",
             "STATUS": "Status",
             "SORT": "Sort",
             "TAGS": "Tags",
@@ -92,35 +94,84 @@
             "NO": "No"
         },
         "showType": {
-            "0": "TV",
-            "1": "Special",
-            "2": "OVA",
-            "3": "Movie",
-            "4": "ONA"
+            "0": "Anime",
+            "1": "TV"
+        },
+        "showFormat": {
+            "0": {
+                "0": "TV",
+                "1": "Special",
+                "2": "OVA",
+                "3": "Movie",
+                "4": "ONA"
+            },
+            "1": {
+                "0": "TV",
+                "1": "Special",
+                "2": "Movie"
+            }
         },
         "showStatus": {
             "0": "Airing",
             "1": "Finished"
         },
         "showGenre": {
-            "1": "Action",
-            "2": "Adventure",
-            "4": "Comedy",
-            "8": "Drama",
-            "16": "Ecchi",
-            "32": "Fantasy",
-            "64": "Horror",
-            "128": "Mahou Shoujo",
-            "256": "Mecha",
-            "512": "Music",
-            "1024": "Mystery",
-            "2048": "Psychological",
-            "4096": "Romance",
-            "8192": "Sci-Fi",
-            "16384": "Slice Of Life",
-            "32768": "Sports",
-            "65536": "Supernatural",
-            "131072": "Thriller"
+            "0": {
+                "1": "Action",
+                "2": "Adventure",
+                "4": "Comedy",
+                "8": "Drama",
+                "16": "Ecchi",
+                "32": "Fantasy",
+                "64": "Horror",
+                "128": "Mahou Shoujo",
+                "256": "Mecha",
+                "512": "Music",
+                "1024": "Mystery",
+                "2048": "Psychological",
+                "4096": "Romance",
+                "8192": "Sci-Fi",
+                "16384": "Slice Of Life",
+                "32768": "Sports",
+                "65536": "Supernatural",
+                "131072": "Thriller"
+            },
+            "1": {
+                "1": "Action",
+                "2": "Adventure",
+                "4": "Animation",
+                "8": "Awards Show",
+                "16": "Children",
+                "32": "Comedy",
+                "64": "Crime",
+                "128": "Documentary",
+                "256": "Drama",
+                "512": "Family",
+                "1024": "Fantasy",
+                "2048": "Food",
+                "4096": "Game Show",
+                "8192": "History",
+                "16384": "Home Garden",
+                "32768": "Horror",
+                "65536": "Indie",
+                "131072": "Martial Arts",
+                "262144": "Mini Series",
+                "524288": "Musical",
+                "1048576": "Mystery",
+                "2097152": "News",
+                "4194304": "Podcast",
+                "8388608": "Reality",
+                "16777216": "Romance",
+                "33554432": "Science Fiction",
+                "67108864": "Soap",
+                "134217728": "Sport",
+                "268435456": "Suspense",
+                "536870912": "Talk Show",
+                "1073741824": "Thriller",
+                "2147483648": "Travel",
+                "4294967296": "War",
+                "8589934592": "Western"
+            }
         },
         "showTag": {
             "1": "Subbed",
@@ -156,6 +207,7 @@
             }
         },
         "type": "Type: ",
+        "format": "Format: ",
         "status": "Status: ",
         "genres": "Genres: ",
         "episodes": "Episodes: ",
@@ -163,15 +215,17 @@
         "favourites": "Favourites: ",
         "views": "Views: ",
         "tags": "Tags: ",
+        "altTitles": "Alt. titles: ",
         "episode": {
             "number": "Episode {{num}}/{{episodes}}",
             "play": "Play",
             "watchLater": "Watch later",
             "missing": "Nothing here"
         },
-        "noTags": "None",
+        "noSynopsis": "No synopsis...",
         "noGenres": "None",
-        "noSynopsis": "No synopsis..."
+        "noTags": "None",
+        "noAltTitles": "None"
     },
     "episode": {
         "number": "Episode {{num}} - ",
@@ -234,7 +288,6 @@
         "hideSubtitles": {
             "tooltip": "Subtitles off"
         },
-        "noDub": "Not dubbed",
         "quality": "Quality - {{quality}} ({{number}}/{{count}})",
         "showTheater": {
             "tooltip": "Theater on"

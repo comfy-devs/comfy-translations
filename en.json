@@ -189,7 +189,8 @@
         },
         "videoPlayerNotification": {
             "OP": "Do you want to skip the opening?",
-            "ED": "Do you want to skip the ending?"
+            "ED": "Do you want to skip the ending?",
+            "RESUME": "Do you want to resume watching?"
         }
     },
     "settings": {
